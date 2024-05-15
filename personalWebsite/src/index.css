@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -52,6 +54,12 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.home__container {
+  background-image: url('./assets/446984.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 @media (prefers-color-scheme: light) {

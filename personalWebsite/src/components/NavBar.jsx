@@ -8,9 +8,6 @@ function NavBar() {
             <NavLink className='px-4 mr-3' to="/">
                 Home
             </NavLink>
-            <NavLink className='px-4 mr-3' to="/about">
-                About
-            </NavLink>
             <NavLink className='px-4 mr-3' to="/projects">
                 Projects
             </NavLink>
