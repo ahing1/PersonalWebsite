@@ -2,14 +2,16 @@ import React from 'react'
 import LinkedInImage from '../assets/linkedin-fill-svgrepo-com.svg';
 import GitHubImage from '../assets/github-svgrepo-com.svg';
 import ProfilePic from '../assets/profile.jpg';
+import Projects from './Projects';
 import About from './About';
+import Contact from './Contact';
 
 function Home() {
   return (
     <div>
-      <div className="min-h-screen flex justify-center items-center flex-col home__container">
+      <div id="home" className="min-h-screen flex justify-center items-center flex-col home__container">
           <p className='mb-8 text-5xl font-bold'>
-            AI and Web Dev Enthusiast
+            Problem Solving Enthusiast
           </p>
           <div className='flex items-center flex-row mb-8'>
             <div className='flex flex-col'>
@@ -29,8 +31,14 @@ function Home() {
           </div>
       </div>
 
-      <div>
+      <div id='about'>
         <About />
+      </div>
+      <div id='projects'>
+        <Projects />
+      </div>
+      <div id='contact'>
+        <Contact />
       </div>
       
     </div>

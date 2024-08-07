@@ -1,19 +1,23 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavHashLink as NavLink } from 'react-router-hash-link'
+import { Link } from 'react-scroll'
 
 function NavBar() {
   return (
     <div>
         <nav className='fixed top-0 right-0 mt-5'>
-            <NavLink className='px-4 mr-3' to="/">
+            <Link className='px-4 mr-3' to="home" smooth={true} duration={500}>
                 Home
-            </NavLink>
-            <NavLink className='px-4 mr-3' to="/projects">
+            </Link>
+            <Link className='px-4 mr-3' to="about" smooth={true} duration={500}>
+                About
+            </Link>
+            <Link className='px-4 mr-3' to="projects" smooth={true} duration={500}>
                 Projects
-            </NavLink>
-            <NavLink className='px-4 mr-12' to="/contact">
+            </Link>
+            <Link className='px-4 mr-12' to="contact" smooth={true} duration={500}>
                 Contact
-            </NavLink>
+            </Link>
         </nav>
     </div>
   )
