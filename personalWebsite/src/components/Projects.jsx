@@ -1,5 +1,6 @@
 import React from 'react'
 import rawg from '../assets/rawg.png';
+import sidehustler from '../assets/sidehustler.jpg'
 import { Fade } from "react-awesome-reveal";
 import GitHubImage from '../assets/github-svgrepo-com.svg';
 
@@ -17,6 +18,18 @@ function Projects() {
                 <img src={GitHubImage} alt="" className="w-7 h-7"/>
               </a>
               <p className='mt-4 w-64'>Clone of the RAWG Game Library</p>
+            </div>
+          </div>
+        </Fade>
+        <Fade direction='up'>
+          <div className='flex items-center space-x-4'>
+            <img src={sidehustler} alt="" className='w-64 h-56'/>
+            <div className='flex flex-col text-center items-center'>
+              <a href="https://sidehustler.vercel.app/">SideHustler</a>
+              <a href="https://github.com/ahing1/game-hub">
+                <img src={GitHubImage} alt="" className="w-7 h-7"/>
+              </a>
+              <p className='mt-4 w-64'>Website for contractors to find and post side jobs</p>
             </div>
           </div>
         </Fade>

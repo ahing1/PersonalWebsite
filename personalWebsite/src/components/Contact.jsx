@@ -28,7 +28,7 @@ export const Contact = () => {
     <div className='min-h-screen flex flex-col justify-center items-center'>
       <h2 className='mb-8 text-blue-500 font-semibold'>Contact</h2>
       {messageSent ? (
-        <p className='text-green-500 font-semibold'>Thanks for your message!</p> // Thank you message
+        <p className='text-green-500 font-semibold'>Thanks for your message!</p>
       ) : (
         <>
           <p>Message me if you would like to connect!</p>
