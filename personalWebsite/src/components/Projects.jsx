@@ -1,6 +1,5 @@
 import React from 'react'
 import rawg from '../assets/rawg.png';
-import stockPredictor from '../assets/stockpredictor.jpg';
 import { Fade } from "react-awesome-reveal";
 import GitHubImage from '../assets/github-svgrepo-com.svg';
 
